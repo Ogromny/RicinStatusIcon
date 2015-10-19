@@ -31,25 +31,25 @@ public class Main {
 
       // ONLINE
       var menuOnline = new ImageMenuItem.with_label("Online");
-      var menuOnlineImage = new Image.from_icon_name("user-available", Gtk.IconSize.MENU);
+      var menuOnlineImage = new Image.from_icon_name("user-available-symbolic", Gtk.IconSize.MENU);
       menuOnline.always_show_image = true;
       menuOnline.set_image(menuOnlineImage);
 
       // BUSY
       var menuBusy = new ImageMenuItem.with_label("Busy");
-      var menuBusyImage = new Image.from_icon_name("user-busy", Gtk.IconSize.MENU);
+      var menuBusyImage = new Image.from_icon_name("user-busy-symbolic", Gtk.IconSize.MENU);
       menuBusy.always_show_image = true;
       menuBusy.set_image(menuBusyImage);
 
       // AWAY
       var menuAway = new ImageMenuItem.with_label("Away");
-      var menuAwayImage = new Image.from_icon_name("user-away", Gtk.IconSize.MENU);
+      var menuAwayImage = new Image.from_icon_name("user-away-symbolic", Gtk.IconSize.MENU);
       menuAway.always_show_image = true;
       menuAway.set_image(menuAwayImage);
 
       // QUIT
       var menuQuit = new ImageMenuItem.with_label("Quit");
-      var menuQuitImage = new Image.from_icon_name("window-close", Gtk.IconSize.MENU);
+      var menuQuitImage = new Image.from_icon_name("window-close-symbolic", Gtk.IconSize.MENU);
       menuQuit.always_show_image = true;
       menuQuit.set_image(menuQuitImage);
       menuQuit.activate.connect(Gtk.main_quit);
